@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color:#461959;
+           padding: 0px;
+           margin: 0px;
+           height: 100%;
+        }
+        #logo{
+            height: 100px;
+            width: 300px;
+        }
+        #container{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .one{
+           height: 160px;
+           width: 100%;
+           background-color: #191825;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: center;
+        }
+        #logo{
+            width: 150px;
+            padding-top: 20px;
+        }
+        .menu>p{
+            color: #EDE4FF;
+            padding: 0px;
+            margin: 15px;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        .menu{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            background-color: #974EC3;
+        }
+        a{
+            color: #EDE4FF;
+            text-decoration:none;
+        }
+        .two{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        #intro-text{
+            font-size: x-large;
+        }
+        .card-container{
+            margin: 0px 200px;
+            padding-bottom: 50px;
+        }
+        .card-heading{
+            display: flex;
+            justify-content: space-between;
+            color: #EDE4FF;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Roboto', sans-serif; font-weight:00;
+            font-size: xx-large;
+            align-items: center;
+            margin: 0px 20px;
+        }
+        #intro-text>p{
+            color: #EDE4FF;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Roboto', sans-serif; font-weight:00;
+            font-size: xx-large;
+        }
+        button{
+           height: 30px;
+           border: 0px;
+           border-radius: 10%;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-between;
+        }
+        .card-properties{
+            position: relative;
+        }
+        .course-title>p{
+            margin: 0px;
+            text-align: center;
+        }
+        .course-title{
+            color: #EDE4FF;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Roboto', sans-serif; font-weight:00;
+            font-size: xx-large;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        a>img{
+            height: 200px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        footer{
+            display: flex;
+           background-color: #191825;
+            color: #EDE4FF;
+            justify-content: center;
+            height:200px;
+        }
+
+        #copyright-text{
+            padding: 30px 0px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <div class="subcontainer one">
+        <div class="logo">
+            <img id="logo" src="./assets/12277166_4866407-removebg-preview (1).png" alt="gfg logo">
+        </div>
+        
+        <div class="menu">
+            <p><a href="">Data Structures</a></p>
+            <p><a href="">Algorithms</a></p>
+            <p><a href="">Interview Preparations</a></p>
+            <p><a href="">Data Science</a></p>
+            <p><a href="">POTD</a></p>
+        </div>
+        
+    </div>
+   
+
+    <div class="subcontainer two">
+        <div id="intro-text">
+            <p>Hello, What Do You Want To Learn ?</p>
+        </div>
+    </div>
+
+    <div class="card-container dsa">
+        <div class ="card-heading dsa">
+            <p>DSA</p>
+            <button>View all</button>
+        </div>
+        <div class="cards dsa">
+            <div class="card-properties">
+                <a href=""><img src="https://img.freepik.com/free-vector/background-pixel-rain-abstract_23-2148374569.jpg?size=626&ext=jpg&uid=R112869754&ga=GA1.2.521686862.1684051698&semt=ais" alt="background-image" ></a>
+                <div class="course-title"><p>Arrays</p></div>
+            </div>
+
+            <div class="card-properties">
+                <a href=""><img src="https://img.freepik.com/free-vector/background-pixel-rain-abstract_23-2148374569.jpg?size=626&ext=jpg&uid=R112869754&ga=GA1.2.521686862.1684051698&semt=ais" alt="background-image" ></a>
+                <div class="course-title"><p>Linked List</p></div>
+            </div>
+
+            <div class="card-properties">
+                <a href=""><img src="https://img.freepik.com/free-vector/background-pixel-rain-abstract_23-2148374569.jpg?size=626&ext=jpg&uid=R112869754&ga=GA1.2.521686862.1684051698&semt=ais" alt="background-image" ></a>
+                <div class="course-title"><p>Hashmaps</p></div>
+            </div>
+        </div>
+   </div>
+
+    <div class="card-container webd">
+    <div class ="card-heading webd">
+        <p>Web Development</p>
+        <button>View all</button>
+    </div>
+    <div class="cards webd">
+            <div class="card-properties">
+                <a href=""><img src="./assets/5633198_2900293.1.jpg" alt="background-image" ></a>
+                <div class="course-title"><p>HTML</p></div>
+            </div>
+
+            <div class="card-properties">
+                <a href=""><img src="./assets/5633198_2900293.1.jpg" alt="background-image" ></a>
+                <div class="course-title"><p>CSS</p></div>
+            </div>
+
+            <div class="card-properties">
+                <a href=""><img src="./assets/5633198_2900293.1.jpg" alt="background-image" ></a>
+                <div class="course-title"><p>JavaScript</p></div>
+            </div>
+    </div>
+    </div>
+
+    <footer>
+        <p id="copyright-text">copyrights@geeksforgeeks2023</p>
+    </footer>
+
+</div>
+</body>
+</html>
